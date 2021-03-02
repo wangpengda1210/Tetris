@@ -1,0 +1,19 @@
+type: code
+files:
+- name: main.py
+  visible: true
+  text: |-
+    import gensim
+    from nltk.data import find
+
+    word2vec_sample = find('models/word2vec_sample/pruned.word2vec.txt')
+    w2v_model = gensim.models.KeyedVectors.load_word2vec_format(word2vec_sample, binary=False)
+
+    # write your code here
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/11335#comment
+status: Solved
+feedback:
+  message: "<html>Passed. \nYour answer is: 0.7262813\nIt is correct!</html>"
+  time: Tue, 02 Mar 2021 01:10:09 UTC
+record: -1

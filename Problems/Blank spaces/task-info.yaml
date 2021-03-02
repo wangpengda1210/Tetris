@@ -1,0 +1,17 @@
+type: code
+files:
+- name: main.py
+  visible: true
+  text: |-
+    import gensim
+    from nltk.data import find
+
+    word2vec_sample = _____('models/word2vec_sample/pruned.word2vec.txt')
+    w2v_model = gensim.models.KeyedVectors._____(word2vec_sample, binary=False)
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/11334#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: Tue, 02 Mar 2021 01:07:46 UTC
+record: -1

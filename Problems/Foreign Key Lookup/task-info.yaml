@@ -1,0 +1,12 @@
+type: code
+files:
+- name: main.py
+  visible: true
+  text: vee_engine_cars = ...
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/7044#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: Sat, 27 Feb 2021 07:07:12 UTC
+record: -1

@@ -1,0 +1,19 @@
+type: code
+files:
+- name: main.py
+  visible: true
+  text: |-
+    import math
+
+
+    secret_number = float(input())
+
+    # complete the next line
+    check = ...
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/8812#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: Sat, 27 Feb 2021 06:40:03 UTC
+record: -1
